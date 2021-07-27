@@ -5,4 +5,5 @@
 	"version": "0.1.0",
 	"author": "Xirdy",
 	"minimumCoreVersion": "0.8.4",
+	"manifest": "https://github.com/Xirdy/dnd-beyond-tables/raw/main/module.json"
 }
