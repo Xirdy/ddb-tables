@@ -2,16 +2,27 @@
 	"name": "dnd-beyond-tables",
 	"title": "DnD Beyond Tables",
 	"description": "DnD Beyond HUD Tables Tool",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"author": "Xirdy",
 	"minimumCoreVersion": "0.8.4",
 	"manifest": "https://github.com/Xirdy/dnd-beyond-tables/raw/main/module.json",
 	"download": "https://github.com/Xirdy/dnd-beyond-tables/archive/refs/heads/main.zip",
 	"compatibleCoreVersion": "0.8.7",
 	"scripts": [
-	  "./init.js"
+		"./libs/splide/js/splide.min.js"
+	],
+	"esmodules": [
+		"./init.js"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
 	],
 	"styles": [
-	  "./css/dnd-beyond-tables.css"
+		"./css/dnd-beyond-tables.css",
+        "./libs/splide/css/splide.min.css"
 	]
 }
