@@ -2,7 +2,7 @@
 	"name": "dnd-beyond-tables",
 	"title": "DnD Beyond Tables",
 	"description": "DnD Beyond HUD Tables Tool",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"author": "Xirdy",
 	"minimumCoreVersion": "0.8.4",
 	"manifest": "https://github.com/Xirdy/dnd-beyond-tables/raw/main/module.json",
@@ -10,5 +10,8 @@
 	"compatibleCoreVersion": "0.8.7",
 	"scripts": [
 	  "./init.js"
+	],
+	"styles": [
+	  "./css/dnd-beyond-tables.css"
 	]
 }
